@@ -1,15 +1,24 @@
 {
-  "todos" : [ {
-    "completed" : false,
-    "id" : 0,
-    "text" : "qwe"
-  }, {
-    "completed" : false,
-    "id" : 1,
-    "text" : "qq"
-  }, {
-    "completed" : true,
-    "id" : 2,
-    "text" : "gh"
-  } ]
+  "todos" : {
+    "-KjElA54Yl5_0gSI1WFX" : {
+      "completed" : true,
+      "text" : "екінші"
+    },
+    "-KjEoYGfv4ydfto_pFWO" : {
+      "completed" : false,
+      "text" : "үшінші"
+    },
+    "-KjEyxpQcN8HcaJRJv3f" : {
+      "completed" : false,
+      "text" : "төртінші"
+    },
+    "-KjEzTrDzezoUr68XaG6" : {
+      "completed" : false,
+      "text" : "5"
+    },
+    "-KjF-zcg0NXuAnBuA69c" : {
+      "completed" : false,
+      "text" : "7-ші"
+    }
+  }
 }
