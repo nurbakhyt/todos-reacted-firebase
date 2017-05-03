@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 40%;
+  }
+}

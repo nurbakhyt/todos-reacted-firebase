@@ -1,0 +1,16 @@
+.add-form {
+  padding-left: 22px;
+}
+.add-form__label {
+  margin-right: 8px;
+  font-weight: bold;
+}
+.add-form__input {
+  font-size: 16px;
+  padding: 2px 8px;
+  width: 50%;
+}
+.add-form__btn {
+  font-size: 16px;
+  padding: 2px 8px;
+}

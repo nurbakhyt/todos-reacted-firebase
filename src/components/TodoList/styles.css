@@ -1,0 +1,31 @@
+.todolist {
+  font-size: 16px;
+}
+.todolist__item {
+  line-height: 1.5;
+}
+.todolist__item>span {
+  cursor: pointer;
+}
+.todolist__item:hover {
+  background-color: #def;
+}
+.todolist__delete,
+.todolist__edit {
+  cursor: pointer;
+  float: right;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .todolist {
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .todolist {
+    font-size: 125%;
+  }
+}
