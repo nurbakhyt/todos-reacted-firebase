@@ -34,10 +34,6 @@ class App extends Component {
           }))
         });
       });
-      firebase.database().ref('todos')
-        .on('child_added', snap => console.log('child_added', snap.val()));
-      firebase.database().ref('todos')
-        .on('child_changed', snap => console.log('child_changed', snap.val()));
   }
 
   handleToggleItem(toggledItem) {

@@ -40,7 +40,6 @@ class AddTodo extends Component {
     const { onUpdate, onAdd } = this.props;
 
     if (this.state.todo.id) {
-      console.log('submit to edit');
       onUpdate({
         ...this.state.todo
       })
