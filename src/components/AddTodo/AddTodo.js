@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './styles.css';
 
 class AddTodo extends Component {
@@ -63,7 +64,7 @@ class AddTodo extends Component {
             onChange={this.handleChangeText}
           />
           <button type="submit" className="add-form__btn">
-            {todo && todo.id ? 'Edit' : 'Add'}
+            {todo.id ? 'Edit' : 'Add'}
           </button>
           {todo.id && <button type="reset" className="add-form__btn" onClick={() => cancel()}>Cancel</button>}
         </form>
